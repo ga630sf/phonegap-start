@@ -27,7 +27,7 @@ var app = {
         // This is an event handler function, which means the scope is the event.
         // So, we must explicitly called `app.report()` instead of `this.report()`.
         //app.report('deviceready');
-        window.plugins.childBrowser.showWebPage('https://www.sam.australiapos.com.au', {showNavigationBar: true}); 
+        window.plugins.childBrowser.showWebPage('https://www.sam.australiapos.com.au', {showNavigationBar: false}); 
   },
     report: function(id) {
         // Report the event in the console
